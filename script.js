@@ -76,7 +76,7 @@ function startSimulation() {
     const numParticles = Number.parseInt(document.getElementById("numParticles").value);
     radius = Number.parseInt(document.getElementById("radius").value);
     speed = Number.parseInt(document.getElementById("speed").value);
-    showGrid = Number.parseInt(document.getElementById("showGrid").checked);
+    // showGrid = Number.parseInt(document.getElementById("showGrid").checked);
 
     particles = [];
     for (let i = 0; i < numParticles; i++) {
